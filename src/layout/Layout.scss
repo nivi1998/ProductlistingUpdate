@@ -1,0 +1,53 @@
+.Layout {
+  &__wrapper {
+    @media (min-width: 1200px) {
+      &::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--slim-grey);
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .Layout__header {
+    background-color: black;
+  }
+}
+
+.sideHeaderHide {
+  display: block;
+  z-index: 1;
+  position: fixed;
+}
+
+    .childrenStyle {
+    margin-left: 21%;
+    margin-top:6%;
+    }
+
+@media (max-width: 990px) {
+  .sideHeaderHide {
+    display: none !important;
+    position:sticky;
+  }
+
+  .childrenStyle {
+margin-top: 19%;
+  margin-left: 2px;  
+  min-height: 80vh;
+}
+}
+
+.Layout__wrapper{
+  overflow-x: hidden;
+}
+.Layout__wrapper::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,51 @@
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.lineContainer{
+    width: 66%;
+}
+
+.doughnutContainer{
+    width: 32%;
+}
+
+.plotContainer{
+    width: 100%;
+}
+
+.cardContiner{
+    width: 180px;
+    height: 80px;
+    background-color: #2a2525;
+    display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 1%;
+        align-items: center;
+}
+.setColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.setSpacing{
+    margin: 2.5%;
+}
+.containerRow{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@media (max-width:'900px') {
+    .lineContainer {
+            width: 100%;
+        }
+    
+        .doughnutContainer {
+            width: 100%;
+        }
+}

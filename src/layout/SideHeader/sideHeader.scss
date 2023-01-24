@@ -1,0 +1,31 @@
+#sideHeader {
+  width: 80%;
+  .container {
+    background: #232135;
+    border-radius: 5px;
+    height: 100vh;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .setPadding {
+    padding: 2%;
+  }
+
+  .setBottom{
+    margin-bottom: 2%;
+  }
+
+  .navlink {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  .registerButton{
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    background-color: crimson;
+    margin-top: 8%;
+  }
+}
